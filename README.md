@@ -8,11 +8,11 @@ en PDF des audits par le biais de l’impression en PDF. L’affichage web n’e
 
 ## Installation
 
-Vous devez au préalable avoir une extension de gestion de styles utilisateur installée sur votre navigateur (par exemple, Stylus).
+Vous devez au préalable avoir une extension de gestion de styles utilisateur installée sur votre navigateur (par exemple, Stylus, disponible sur [Firefox](https://addons.mozilla.org/firefox/addon/styl-us/), [Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne), et [Opera](https://addons.opera.com/extensions/details/stylus/)).
 
-Ensuite, cliquez sur ces liens pour installer les styles : **[Partie 1](https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-1.user.css)** – **[Partie 2](https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-2.user.css)**
+Ensuite, cliquez sur ces liens pour installer les styles : **[Partie 1](https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-1.user.css)** – **[Partie 2](https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-2.user.css)**.
 
-Ils seront mis à jour automatiquement en cas d’évolutions si l’extension utilisée le supporte.
+Ils seront mis à jour automatiquement en cas d’évolution, si l’extension utilisée le supporte.
 
 ## Utilisation
 
