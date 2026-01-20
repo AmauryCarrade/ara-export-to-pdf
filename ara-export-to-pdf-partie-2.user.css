@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           ara.numerique.gouv.fr-2
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Export PDF d’audit – Parties 2 et plus (sans en-têtes)
+@author         Amaury Carrade
+==/UserStyle== */
+@-moz-document domain("ara.numerique.gouv.fr") {
+    @media print {
+        main > .header,
+        main > .heading,
+        main > div[role="alert"] {
+            display: none !important;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+/* ==UserStyle==
+@name           ara.numerique.gouv.fr
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Export PDF Ara – Partie 1 (avec en-têtes)
+@author         Amaury Carrade
+==/UserStyle== */
+@-moz-document domain("ara.numerique.gouv.fr") {
+    @media print {
+        a.top-link,
+        ul.tabs,
+        .tabs-wrapper,
+        #header,
+        .heading-actions,
+        .fr-accordion__title,
+        a.fr-link[href$="details-des-non-conformites#elements-transverses"],
+        div.sidebar.filters-wrapper {
+            display: none !important;
+        }
+
+        .panel-container {
+            border: none !important;
+        }
+
+        .report-card-details-accordion {
+            margin-top: 0 !important;
+        }
+
+        div.fr-callout.fr-mb-6w p.fr-callout__text.fr-text--md.fr-mb-2w {
+            margin-bottom: 0 !important;
+        }
+
+        div.panel-container div.main {
+            display: block;
+        }
+
+        #panel-v-2-1::before,
+        #panel-v-2-2::before,
+        #panel-v-2-3::before {
+            display: block !important;
+
+            font-size: 2rem !important;
+            line-height: 2.5rem !important;
+            color: var(--text-active-blue-france) !important;
+
+            margin: var(--title-spacing) !important;
+            margin-bottom: 1rem !important;
+            font-weight: 700 !important;
+
+            break-after: avoid !important;
+            page-break-after: avoid !important;
+        }
+
+        #panel-v-2-1::before {
+            content: "Détail des non-conformités";
+        }
+
+        #panel-v-2-2::before {
+            content: "Points d’amélioration";
+        }
+
+        #panel-v-2-3::before {
+            content: "Observations générales";
+        }
+
+        * {
+            background: white !important;
+        }
+    }
+}
