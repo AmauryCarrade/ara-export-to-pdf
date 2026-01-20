@@ -30,6 +30,13 @@ que le contenu puisse être ajouté à la suite du premier PDF).
 4. Exporter toutes les autres sections de la même manière, avec les deux styles appliqués.
 5. Fusionnez les PDFs ainsi obtenus, dans le bon ordre.
 
+### Fusionner des PDFs
+
+Pour fusionner des PDFs, vous pouvez :
+- utiliser un service web, tel que [Adobe Acrobat (web)](https://www.adobe.com/acrobat/online/merge-pdf.html), [iLovePDF](https://www.ilovepdf.com/merge_pdf), ou [Smallpdf](https://smallpdf.com/merge-pdf) ;
+- utiliser PDFtk en GUI (Windows, Linux, macOS) ou en ligne de commande : `pdftk partie1.pdf partie2.pdf ... cat output audit.pdf` ;
+- sous macOS, utiliser Aperçu (par copier-coller des pages d’un PDF à l’autre).
+
 ---
 
-_Attention : en fonction des navigateurs, il n’est pas garanti que le PDF exporté par impression soit accessible._
+_**Attention** : en fonction des navigateurs, il n’est pas garanti que le PDF exporté par impression soit pleinement accessible._
