@@ -6,6 +6,14 @@ l’outil web développé par la DINUM.
 Les _user styles_ fonctionnent en modifiant les feuilles d’impression pour permettre l’export
 en PDF des audits par le biais de l’impression en PDF. L’affichage web n’est pas altéré.
 
+## Installation
+
+Vous devez au préalable avoir une extension de gestion de styles utilisateur installée sur votre navigateur (par exemple, Stylus).
+
+Ensuite, cliquez sur ces liens pour installer les styles : **[Partie 1](https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-1.user.css)** – **[Partie 2](https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-2.user.css)**
+
+Ils seront mis à jour automatiquement en cas d’évolutions si l’extension utilisée le supporte.
+
 ## Utilisation
 
 Il y a deux styles à utiliser : un pour la première page (qui conserve toutes les en-têtes
