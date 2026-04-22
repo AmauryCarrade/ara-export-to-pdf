@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           ara.numerique.gouv.fr
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
-@updateUrl      https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-1.user.css
+@version        1.0.1
+@updateURL      https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-1.user.css
 @license        CECILL-B
 @description    Export PDF Ara – Partie 1 (avec en-têtes)
 @author         Amaury Carrade
@@ -22,6 +22,12 @@
 
         .panel-container {
             border: none !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .report-metrics {
+            gap: 0 !important;
         }
 
         .report-card-details-accordion {
@@ -34,6 +40,10 @@
 
         div.panel-container div.main {
             display: block;
+        }
+
+        div.panel-container #panel-v-2-0 div.card:last-of-type {
+            border-top: none !important;
         }
 
         #panel-v-2-1::before,
@@ -67,6 +77,10 @@
 
         * {
             background: white !important;
+        }
+
+        #elements-transverses + ul.fr-tags-group > li > p {
+            padding-left: .1rem !important;
         }
     }
 }
