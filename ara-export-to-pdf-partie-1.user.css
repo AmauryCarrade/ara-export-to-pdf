@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ara.numerique.gouv.fr
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @updateURL      https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-1.user.css
 @license        CECILL-B
 @description    Export PDF Ara – Partie 1 (avec en-têtes)
@@ -26,14 +26,6 @@
             padding: 0 !important;
         }
 
-        .report-metrics {
-            gap: 0 !important;
-        }
-
-        .report-card-details-accordion {
-            margin-top: 0 !important;
-        }
-
         div.fr-callout.fr-mb-6w p.fr-callout__text.fr-text--md.fr-mb-2w {
             margin-bottom: 0 !important;
         }
@@ -42,8 +34,26 @@
             display: block;
         }
 
-        div.panel-container #panel-v-2-0 div.card:last-of-type {
+        #panel-v-2-0 .report-metrics {
+            gap: 0 !important;
+
+            /* Évite qu’il ne reste que le titre de la section d’après sur
+               un PDF de taille A4 standard. */
+            break-after: page !important;
+        }
+
+        #panel-v-2-0 .report-metrics div.card:last-of-type {
             border-top: none !important;
+        }
+
+        #repartition-des-criteres-par-thematiques-du-rgaa {
+            /* Évite que le tableau ne soit coupé en deux sur un PDF de
+               taille A4 standard. */
+            break-before: page !important;
+        }
+
+        #panel-v-2-0 .report-card-details-accordion {
+            margin-top: 0 !important;
         }
 
         #panel-v-2-1::before,
