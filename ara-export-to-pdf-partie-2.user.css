@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           ara.numerique.gouv.fr-2
 @namespace      github.com/openstyles/stylus
-@version        1.0.0
+@version        1.0.2
 @updateURL      https://github.com/AmauryCarrade/ara-export-to-pdf/raw/refs/heads/main/ara-export-to-pdf-partie-2.user.css
 @license        CECILL-B
 @description    Export PDF d’audit – Parties 2 et plus (sans en-têtes)
@@ -11,7 +11,9 @@
     @media print {
         main > .header,
         main > .heading,
-        main > div[role="alert"] {
+        main > div[role="alert"],
+        main > div[data-cy="report-header"],
+        main > div.fr-mb-8w {
             display: none !important;
         }
     }
